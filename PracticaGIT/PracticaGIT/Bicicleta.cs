@@ -22,6 +22,7 @@ namespace PracticaGIT
             Console.WriteLine("\tRodada: {0}", rodada);
             Console.WriteLine("\tVelocidades: {0}", velocidades);
             Console.WriteLine("\tColor: {0}", color);
+            Console.WriteLine("Fin");
         }
     }
 
