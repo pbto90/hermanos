@@ -11,5 +11,10 @@ namespace PracticaGIT
         public string Id { get; set; }
         public string Nombre { get; set; }
         public string Apellidos { get; set; }
+
+        public void NombreCompleto() 
+        {
+            Console.WriteLine(string.Format("{0} {1}", Nombre, Apellidos));
+        }
     }
 }
